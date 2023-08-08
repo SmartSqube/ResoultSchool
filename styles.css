@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #86898f;
+  color: #0f141e;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.text {
+  margin-left: 40px;
+}
+
+.text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #0c0c0c;
+  margin: 0;
+}
+
+.text h4 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+.card1 {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background: #fae5ff;
+}
+
+.card2 {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background: #e5e9ff;
+}
+
+.btn {
+  background: #7eabff;
+  padding: 15px 20px;
+  color: #ffeeee;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #363636;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+.forma h2 {
+  text-align: center;
+}
+
+.fr {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.fr .form {
+  margin-right: 20px;
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .fr {
+    display: block;
+  }
+
+  .fr .form {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.form label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border: 2px solid rgb(88, 88, 88);
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
